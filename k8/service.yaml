@@ -7,6 +7,8 @@ spec:
   selector:
     app: static-site
   ports:
-    - port: 80
+    - name: http
+      protocol: TCP
+      port: 80
       targetPort: 80
       nodePort: 30007
