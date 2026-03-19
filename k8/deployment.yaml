@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: static-site
-        image: <your-dockerhub-username>/k8s-static-site:v1
+        image: brajsharma/k8s-static-site:v1
         ports:
         - containerPort: 80
